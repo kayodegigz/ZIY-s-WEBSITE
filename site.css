@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+}
+html, body{
+    height: 100%;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(108, 156, 11);
+}
+p{
+    margin: 0.5cm 0cm 0.5cm 0cm;
+}
+
+header{
+    display: block;
+    position: fixed;
+    background-color: sandybrown;
+    width: 100%;
+    padding: 10px;
+    top: 0;
+    left: 0;
+}
+
+nav a:visited,
+nav a:link{
+    color: white;
+    text-decoration: none;
+}
+nav>ul{
+    display: inline;
+    padding: 0;
+}
+nav>ul>li{
+    display: inline-block;
+    padding: 5px;
+    list-style: none;
+    margin: 0.5 0 0.5 0;
+}
+
+main{
+    display: block;
+    background-image: none;
+    padding: 4em 0em 4em 0em;
+    min-height: 100%;
+   
+}
+
+aside, article{
+    padding: 2em;
+}
+
+aside{
+    text-align: center;
+}
+article{
+    width: 75%;
+}
+
+.columns{
+    display: flex;
+}
+
+@media only screen and (min-width: 768px)  {
+    main{
+        display: flex;
+    }
+    aside{
+        margin-left: 2%;
+    }
+    .columns-desktop{
+        display: flex;
+    }
+}
+
+.shoes{
+    background-color: rgb(108, 156, 11);
+    margin: 10px;
+    padding: 10px;
+    border: 0;
+    
+    
+}
+.shoes img{
+    width: 200px;
+    border: solid burlywood 2px;
+    display: flex;
+}
+.shoes .shoe-name{
+    font-weight: bold;
+}
+.shoes .columns{
+    width: 100%;
+}
+.shoes .shoe-name{
+    width: 50%;
+}
+.shoes .shoe-price{
+    width: 50%;
+    text-align: right;
+}
+.shoes button{
+    background-color:burlywood;
+    padding: 20px;
+    border: solid 2px black;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.shoes .description{
+    background-color:darkmagenta;
+    border-radius: 3px;
+    padding: 5px;
+    font-style: italic;
+    color: whitesmoke;
+}
