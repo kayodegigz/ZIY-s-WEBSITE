@@ -8,6 +8,7 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgb(108, 156, 11);
     margin-top: 0;
+    max-width: 100%;
 }
 p{
     margin: 0.5cm 0cm 0.5cm 0cm;
@@ -31,7 +32,10 @@ nav a:link{
 nav>ul{
     display: inline;
     padding: 0;
+
 }
+
+
 nav>ul>li{
     display: inline-block;
     padding: 5px;
@@ -57,6 +61,7 @@ aside{
 }
 article{
     width: 75%;
+    float: right;
 }
 
 .columns{
@@ -80,6 +85,10 @@ article{
     margin: 10px;
     padding: 10px;
     border: 0;
+  
+    
+   
+    
     
     
 }
@@ -87,6 +96,9 @@ article{
     width: 200px;
     border: solid burlywood 2px;
     display: flex;
+    
+    
+    
 }
 .shoes .shoe-name{
     font-weight: bold;
